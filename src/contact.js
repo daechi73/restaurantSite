@@ -1,7 +1,7 @@
 const contact = () => {
   const content = document.querySelector(".main-content");
 
-  content.textContent = "contact...";
+  content.innerHTML = "contact...";
 };
 
 export default contact;

@@ -1,3 +1,5 @@
+import home from "./home";
+
 const initialRender = () => {
   const body = document.body;
   const content = document.querySelector("#content");
@@ -37,11 +39,12 @@ const initialRender = () => {
   const mainContent = document.createElement("div");
 
   mainContent.classList.add("main-content");
-  mainContent.textContent = "stuff goes here...";
   mainContent.style.height = "70vh";
   mainContent.style.display = "grid";
   mainContent.style.alignContent = "center";
   content.appendChild(mainContent);
+
+  home();
 };
 
 export default initialRender;

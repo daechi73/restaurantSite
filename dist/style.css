@@ -1,0 +1,8 @@
+@font-face {
+  font-family: alkatra;
+  src: url(./font/Alkatra-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: alkatra;
+}
